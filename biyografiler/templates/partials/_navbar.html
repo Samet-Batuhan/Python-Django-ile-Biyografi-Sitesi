@@ -1,0 +1,45 @@
+{% load static %}
+
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container ">
+      <a class="navbar-brand" href="{% url 'home' %}">Biyografiniz.com</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link passive"  href="{% url 'home' %}">Ana Sayfa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'home' %}">Öne Çıkanlar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'sairler' %}">Şairler</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'sporcular' %}">Sporcular</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'oyuncular' %}">Oyuncular</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'muzisyenler' %}">Müzisyenler</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'tarihciler' %}">Tarihçiler</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'hakkinda' %}">Hakkımızda</a>
+          </li>
+        </ul>
+        <!-- <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Arama" aria-label="Arama">
+          <button class="btn btn-outline-light" type="submit">Arama</button>
+        </form> -->
+      </div>
+    </div>
+  </nav> 
+   
